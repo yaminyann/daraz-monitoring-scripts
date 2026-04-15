@@ -245,8 +245,7 @@ async def scrape_page(crawler, url, retry_count=0, max_retries=3):
         crawl_config = CrawlerRunConfig(
             cache_mode=CacheMode.BYPASS,
             word_count_threshold=10,
-            page_timeout=45000,
-            wait_for="css:img[type='product']",
+            page_timeout=60000,
             simulate_user=True,
             magic=True,
         )
