@@ -42,6 +42,7 @@ USER_AGENTS = [
 MIN_PAGE_DELAY = 3
 MAX_PAGE_DELAY = 8
 
+
 # ==================== CELERY CONFIG ====================
 celery_app.conf.update(
     task_serializer='json',
